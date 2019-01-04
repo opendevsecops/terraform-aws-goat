@@ -1,0 +1,3 @@
+.terraform
+remote.tf
+modules/*/build

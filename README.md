@@ -10,7 +10,7 @@ Getting started is easy. Here is a complete example:
 
 ```terraform
 module "goat" {
-  source = "opendevsecops/scanner/goat"
+  source = "opendevsecops/goat/aws"
 }
 ```
 

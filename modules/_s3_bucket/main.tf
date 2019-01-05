@@ -8,7 +8,7 @@ module "bucket" {
 
 resource "aws_s3_bucket" "main" {
   bucket = "${local.bucket}"
-  
-  acl = "${var.acl}"
+
+  acl    = "${var.acl}"
   policy = "${var.policy}"
 }

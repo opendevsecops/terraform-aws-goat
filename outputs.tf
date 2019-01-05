@@ -1,3 +1,7 @@
+output "iam_role_public_assumerole_arn" {
+  value = "${module.iam_role_public_assumerole.arn}"
+}
+
 output "s3_bucket_public_read_id" {
   value = "${module.s3_bucket_public_read.id}"
 }

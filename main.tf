@@ -1,3 +1,7 @@
+module "iam_role_public_assumerole" {
+  source = "modules/iam-role-public-assumerole"
+}
+
 module "s3_bucket_public_read" {
   source = "modules/s3-bucket-public-read"
 }
